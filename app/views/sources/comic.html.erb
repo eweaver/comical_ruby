@@ -1,0 +1,7 @@
+<h1><%= @source.name %></h1>
+<p>
+    <img src="<%= @image %>" />
+</p>
+<p>
+  <%= link_to('Next', {:action => 'comic', :id => @source.id, :nextUri =>  @nextLink }) %>
+</p>
